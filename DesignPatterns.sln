@@ -3,17 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.ConsoleApp", "src\DesignPatterns.ConsoleApp\DesignPatterns.ConsoleApp.csproj", "{5C775524-F942-48FD-94E1-41BD09ABBE3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.ConsoleApp", "src\DesignPatterns.ConsoleApp\DesignPatterns.ConsoleApp.csproj", "{5C775524-F942-48FD-94E1-41BD09ABBE3D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.0 - Creational", "1.0 - Creational", "{C257BC0C-399F-47F3-842D-6321CE658E69}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{135538DF-6923-412A-AEE9-18826ADDFA45}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.0 - Structural", "2.0 - Structural", "{135538DF-6923-412A-AEE9-18826ADDFA45}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavorial", "Behavorial", "{D5CA252C-ED05-47C8-8FE4-7D2CE5242912}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.0 - Behavorial", "3.0 - Behavorial", "{D5CA252C-ED05-47C8-8FE4-7D2CE5242912}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Creational.AbstractFactory", "src\DesignPatterns.Creational.AbstractFactory\DesignPatterns.Creational.AbstractFactory.csproj", "{95EEDCF4-F781-48B3-A0E1-7093B2C47251}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Creational.AbstractFactory", "src\DesignPatterns.Creational.AbstractFactory\DesignPatterns.Creational.AbstractFactory.csproj", "{95EEDCF4-F781-48B3-A0E1-7093B2C47251}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{6ED78662-730F-4814-900F-BA6B52D57A3F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{62802A4C-9334-4B56-A985-7C6115B68A3B}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Creational.FactoryMethod", "src\DesignPatterns.Creational.FactoryMethod\DesignPatterns.Creational.FactoryMethod.csproj", "{5782396C-199E-4846-B61A-417EBC31B803}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +36,10 @@ Global
 		{95EEDCF4-F781-48B3-A0E1-7093B2C47251}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95EEDCF4-F781-48B3-A0E1-7093B2C47251}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95EEDCF4-F781-48B3-A0E1-7093B2C47251}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5782396C-199E-4846-B61A-417EBC31B803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5782396C-199E-4846-B61A-417EBC31B803}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5782396C-199E-4846-B61A-417EBC31B803}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5782396C-199E-4846-B61A-417EBC31B803}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +47,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{5C775524-F942-48FD-94E1-41BD09ABBE3D} = {6ED78662-730F-4814-900F-BA6B52D57A3F}
 		{95EEDCF4-F781-48B3-A0E1-7093B2C47251} = {C257BC0C-399F-47F3-842D-6321CE658E69}
+		{5782396C-199E-4846-B61A-417EBC31B803} = {C257BC0C-399F-47F3-842D-6321CE658E69}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9C12FFE1-99D3-4A16-8130-955477A07ED3}

@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DesignPatterns.Creational.AbstractFactory\DesignPatterns.Creational.AbstractFactory.csproj" />
+    <ProjectReference Include="..\DesignPatterns.Creational.FactoryMethod\DesignPatterns.Creational.FactoryMethod.csproj" />
   </ItemGroup>
 
 </Project>
