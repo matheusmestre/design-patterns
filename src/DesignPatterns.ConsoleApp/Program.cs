@@ -1,5 +1,6 @@
 ﻿using DesignPatterns.Creational.AbstractFactory;
 using DesignPatterns.Creational.FactoryMethod;
+using DesignPatterns.Creational.Singleton;
 using System;
 
 namespace DesignPatterns.ConsoleApp
@@ -9,7 +10,8 @@ namespace DesignPatterns.ConsoleApp
         static void Main(string[] args)
         {
             //AbstractFactoryExecutor.Execute();
-            FactoryMethodExecutor.Execute();
+            //FactoryMethodExecutor.Execute();
+            SingletonExecutor.Execute();
 
             Console.ReadKey();
         }
