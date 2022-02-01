@@ -9,6 +9,7 @@
     <ProjectReference Include="..\DesignPatterns.Creational.AbstractFactory\DesignPatterns.Creational.AbstractFactory.csproj" />
     <ProjectReference Include="..\DesignPatterns.Creational.FactoryMethod\DesignPatterns.Creational.FactoryMethod.csproj" />
     <ProjectReference Include="..\DesignPatterns.Creational.Singleton\DesignPatterns.Creational.Singleton.csproj" />
+    <ProjectReference Include="..\DesignPatterns.Structural.Adapter\DesignPatterns.Structural.Adapter.csproj" />
   </ItemGroup>
 
 </Project>
