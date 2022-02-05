@@ -2,6 +2,7 @@
 using DesignPatterns.Creational.FactoryMethod;
 using DesignPatterns.Creational.Singleton;
 using DesignPatterns.Structural.Adapter.Client;
+using DesignPatterns.Structural.Composite;
 using DesignPatterns.Structural.Facade;
 using System;
 using System.Collections.Generic;
@@ -71,6 +72,7 @@ namespace DesignPatterns.ConsoleApp
                 new MenuOption("3", "Singleton", "Creational", SingletonExecutor.Execute),
                 new MenuOption("4", "Adapter", "Structural", AdapterExecutor.Execute),
                 new MenuOption("5", "Facade", "Structural", FacadeExecutor.Execute),
+                new MenuOption("6", "Composite", "Structural", CompositeExecutor.Execute),
             };
         }
     }
