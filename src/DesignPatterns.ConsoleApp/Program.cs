@@ -1,4 +1,5 @@
 ﻿using DesignPatterns.Behavorial.Command.Client;
+using DesignPatterns.Behavorial.Observer;
 using DesignPatterns.Behavorial.Strategy;
 using DesignPatterns.Creational.AbstractFactory;
 using DesignPatterns.Creational.FactoryMethod;
@@ -77,6 +78,7 @@ namespace DesignPatterns.ConsoleApp
                 new MenuOption("6", "Composite", "Structural", CompositeExecutor.Execute),
                 new MenuOption("7", "Command", "Behavorial", CommandExecutor.Execute),
                 new MenuOption("8", "Strategy", "Behavorial", StrategyExecutor.Execute),
+                new MenuOption("9", "Observer", "Behavorial", ObserverExecutor.Execute),
             };
         }
     }
